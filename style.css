@@ -1142,7 +1142,6 @@
   
   .footer__left-block-menu-element:hover {
     opacity:.7;
-    text-shadow: 0 0 10px rgba(255,255,255,0.3);
   }
 
   .footer__left-block-sign {
@@ -1352,24 +1351,20 @@
   .footer__right-block-social {
     display: -webkit-box;
     display: -ms-flexbox;
+    width: 100px;
     display: flex;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-            justify-content: flex-end;
+            justify-content: space-between;
     margin: auto 48px 20px auto;
   }
   
-  .footer__right-bock-social-a {
-  padding: 0 0 0 18px;
-  }
-
   .footer__right-block-social_img {
     cursor: pointer;
   }
   
   .footer__right-block-social_img:hover {
     opacity: .8;
-    box-shadow: 0 0 7px rgba(255,255,255,0.3);
    }
   
   .footer__right-block-btn {
@@ -1390,7 +1385,6 @@
     
   .footer__right-block-btn:hover  {
     opacity: .8;
-    box-shadow: 0 0 7px rgba(255,132,0,0.3);
   }
     
   .footer__right-block-contacts-number {
@@ -1443,7 +1437,6 @@
   .footer__right-block-contacts-number:hover,
   .footer__right-block-worktime:hover {
     opacity: .8;
-    text-shadow: 0 0 7px rgba(255,255,255, 0.3);
   }
   
 

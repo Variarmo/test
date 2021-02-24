@@ -1315,9 +1315,12 @@
             justify-content: flex-end;
     margin: auto 48px 20px auto;
   }
+  
+  .footer__right-bock-social-a {
+  padding: 0 0 0 18px;
+  }
 
   .footer__right-block-social_img {
-    padding: 0 0 0 18px;
     cursor: pointer;
   }
 

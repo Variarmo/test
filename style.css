@@ -658,6 +658,7 @@
     margin: 40px 50px auto 50px;
     width: 12px;
     height: 14px;
+    cursor: pointer; 
   }
 
   .partners-section__slide-gallery {
@@ -1004,7 +1005,7 @@
 
   .drill-section__img{
     padding-top: 100px;
-    margin: 0 50px 0 0;
+    margin: 0 5% 0 0;
     width: 50%;
     display: inline;
   }
@@ -1014,7 +1015,7 @@
   }
 
   .drill-section__text{
-    width: 50%;
+    width: 45%;
     height: 100%;
     background: url('./pics/10.svg') no-repeat;
     background-size: auto;

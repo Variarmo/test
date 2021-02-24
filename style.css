@@ -92,7 +92,7 @@
     white-space: pre;
     cursor: pointer;
   }
-
+ 
   .top-section__header-contacts {
     width: 280px;
     height: 37px;
@@ -133,7 +133,14 @@
     white-space: pre;
     cursor: pointer;
   }
-
+   
+  .top-section__header-info-btn:hover,
+  .top-section__header-contacts-number:hover,
+  .top-section__header-contacts-message:hover {
+    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+    opacity: .8
+  }
+  
   .top-section__main {
     width: 100%;
     background: url(./pics/background.svg) no-repeat;
@@ -245,6 +252,13 @@
     cursor: pointer;
   }
 
+    
+  .top-section__main-top-menu-btn_search:hover,
+  .top-section__main-top-menu-btn_catalog:hover {
+     box-shadow: 0 0 10px rgba(255,255,255,0.3);
+     opacity: .8
+  }
+
   .top-section__main-top-menu-btn_call {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -268,6 +282,11 @@
         -ms-flex-align: center;
             align-items: center;
     cursor: pointer;
+  }
+  
+  .top-section__main-top-menu-btn_call:hover {
+    box-shadow: 0 0 10px rgba(255,132,0,0.3); 
+    opacity: .8
   }
 
   .top-section__main-bottom_background {
@@ -392,7 +411,14 @@
     height: 19px;
     color: #fff;
     white-space: pre;
-  }
+  }  
+    
+  .top-section__main-bottom-menu-btn-foundstore:hover,
+  .top-section__main-bottom-menu-btn-buyonline:hover,
+  .top-section__main-bottom-menu-btn-downloadcatalog:hover {
+    opacity: .7;
+  } 
+
 
   .top-section__aboutus {
     display: -webkit-box;
@@ -508,7 +534,6 @@
   }
 
   .client-section__numbers {
-    width: 92%;
     height: 140px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -687,6 +712,15 @@
     display: inline;
   }
 
+    #partners-section__slide-gallery-stroika:hover,
+  #partners-section__slide-gallery-instruments:hover,
+  #partners-section__slide-gallery-volt:hover,
+  #partners-section__slide-gallery-kuvalda:hover,
+  #partners-section__slide-gallery-ozon:hover,
+  #partners-section__slide-gallery-castorama:hover {
+    opacity: .7;
+  }
+  
   .partners-section__slide-gallery_img {
     width: 170px;
     height: 85px;
@@ -1105,6 +1139,11 @@
     padding: 0 0 16px 0;
     cursor: pointer;
   }
+  
+  .footer__left-block-menu-element:hover {
+    opacity:.7;
+    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+  }
 
   .footer__left-block-sign {
     font-family: 'Inter';
@@ -1285,6 +1324,10 @@
     padding: 13px 22px 13px 22px;
     white-space: pre;
   }
+  
+  #footer__center-partner-card-detailes_btn:hover {
+    opacity: .8;  
+  }
 
   .footer__right-block {
     width: 92%;
@@ -1323,7 +1366,12 @@
   .footer__right-block-social_img {
     cursor: pointer;
   }
-
+  
+  .footer__right-block-social_img:hover {
+    opacity: .8;
+    box-shadow: 0 0 7px rgba(255,255,255,0.3);
+   }
+  
   .footer__right-block-btn {
     white-space: pre;
     font-family: 'Inter';
@@ -1339,7 +1387,12 @@
     border-radius: 5px;
     cursor: pointer;
   }
-
+    
+  .footer__right-block-btn:hover  {
+    opacity: .8;
+    box-shadow: 0 0 7px rgba(255,132,0,0.3);
+  }
+    
   .footer__right-block-contacts-number {
     font-family: 'Inter';
     font-style: normal;
@@ -1385,7 +1438,14 @@
     font-size: 12px;
     line-height: 15px;
     padding: 0 42px 20px 0;
+  }  
+  
+  .footer__right-block-contacts-number:hover,
+  .footer__right-block-worktime:hover {
+    opacity: .8;
+    text-shadow: 0 0 7px rgba(255,255,255, 0.3);
   }
+  
 
   .footer__right-block-developer {
     font-family: 'Inter';

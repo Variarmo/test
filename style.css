@@ -137,7 +137,6 @@
   .top-section__header-info-btn:hover,
   .top-section__header-contacts-number:hover,
   .top-section__header-contacts-message:hover {
-    text-shadow: 0 0 10px rgba(255,255,255,0.3);
     opacity: .8
   }
   
@@ -255,7 +254,6 @@
     
   .top-section__main-top-menu-btn_search:hover,
   .top-section__main-top-menu-btn_catalog:hover {
-     box-shadow: 0 0 10px rgba(255,255,255,0.3);
      opacity: .8
   }
 
@@ -285,7 +283,6 @@
   }
   
   .top-section__main-top-menu-btn_call:hover {
-    box-shadow: 0 0 10px rgba(255,132,0,0.3); 
     opacity: .8
   }
 
